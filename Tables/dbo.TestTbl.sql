@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[TestTbl]
+(
+[Tabletst] [int] NOT NULL IDENTITY(1, 1),
+[testinfo] [nvarchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[TestTbl] ADD CONSTRAINT [PK__TestTbl__C343607B1884C25A] PRIMARY KEY CLUSTERED  ([Tabletst]) ON [PRIMARY]
+GO
